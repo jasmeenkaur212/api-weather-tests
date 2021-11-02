@@ -1,0 +1,149 @@
+Manual Test cases for Weather API
+========================================================================================================================
+
+Test case ID: 001
+Test case title: Current Weather information for London GB in language English
+Pre conditions:
+1. Use valid API key - 9d50450a48809637b4862bdcb125927d
+2. Use an API testing tool such as Postman
+3. Have the city id which will be used for testing at hand - 2643743
+
+Test steps:
+
+1. Use the following base url https://api.openweathermap.org/data/2.5/weather?&appid=9d50450a48809637b4862bdcb125927d
+2. Add param id=2643743 to request
+3. Add param lang=en to request
+4  Add param units=metric to request
+5. For this test use REST verb GET
+6. Hit send
+
+Expected results:
+
+The assertion for this test is below
+JSON response should be returned with the following fields in the response
+
+• Temp
+• Humidity
+• Description
+• Temp min
+• Temp max
+
+========================================================================================================================
+
+Test case ID: 002
+Test case title: Current Weather information for Paris, FR in language French
+Pre conditions:
+1. Use valid API key - 9d50450a48809637b4862bdcb125927d
+2. Use an API testing tool such as Postman
+3. Have the city id which will be used for testing at hand - 2988507
+
+Test steps:
+
+1. Use the following base url https://api.openweathermap.org/data/2.5/weather?&appid=9d50450a48809637b4862bdcb125927d
+2. Add param id=2988507 to request
+3. Add param lang=fr to request
+4  Add param units=metric to request
+5. For this test use REST verb GET
+6. Hit send
+
+Expected results:
+
+The assertion for this test is below
+JSON response should be returned with the following fields in the response
+
+• Temp
+• Humidity
+• Description
+• Temp min
+• Temp max
+
+========================================================================================================================
+
+
+Test case ID: 003
+Test case title: Current Weather information for New York,US in language English
+
+Pre conditions:
+1. Use valid API key - 9d50450a48809637b4862bdcb125927d
+2. Use an API testing tool such as Postman
+3. Have the city id which will be used for testing at hand - 5128581
+
+Test steps:
+
+1. Use the following base url https://api.openweathermap.org/data/2.5/weather?&appid=9d50450a48809637b4862bdcb125927d
+2. Add param id=5128581 to request
+3. Add param lang=en to request
+4  Add param units=metric to request
+5. For this test use REST verb GET
+6. Hit send
+
+Expected results:
+
+The assertion for this test is below
+JSON response should be returned with the following fields in the response
+
+• Temp
+• Humidity
+• Description
+• Temp min
+• Temp max
+
+========================================================================================================================
+
+Test case ID: 004
+Test case title: Current Weather information for Dehli,in language Hindi
+Pre conditions:
+1. Use valid API key - 9d50450a48809637b4862bdcb125927d
+2. Use an API testing tool such as Postman
+3. Have the city id which will be used for testing at hand - 2650225
+
+Test steps:
+
+1. Use the following base url https://api.openweathermap.org/data/2.5/weather?&appid=9d50450a48809637b4862bdcb125927d
+2. Add param id=2650225 to request
+3. Add param lang=hi to request
+4  Add param units=metric to request
+5. For this test use REST verb GET
+6. Hit send
+
+Expected results:
+
+The assertion for this test is below
+JSON response should be returned with the following fields in the response
+
+• Temp
+• Humidity
+• Description
+• Temp min
+• Temp max
+
+
+=======================================================================================================================
+
+
+Test case ID: 005
+Test case title: Current Weather information for Tokyo, JP in language Japanese
+Pre conditions:
+1. Use valid API key - 9d50450a48809637b4862bdcb125927d
+2. Use an API testing tool such as Postman
+3. Have the city id which will be used for testing at hand - 1850147
+
+Test steps:
+
+1. Use the following base url https://api.openweathermap.org/data/2.5/weather?&appid=9d50450a48809637b4862bdcb125927d
+2. Add param id=1850147 to request
+3. Add param lang=ja to request
+4  Add param units=metric to request
+5. For this test use REST verb GET
+6. Hit send
+
+Expected results:
+
+The assertion for this test is below
+JSON response should be returned with the following fields in the response
+
+• Temp
+• Humidity
+• Description
+• Temp min
+• Temp max
